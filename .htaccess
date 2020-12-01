@@ -1,0 +1,4 @@
+AuthTYpe Basic
+AuthName "decade"
+AuthUserFile "/var/www/.htpasswd"
+require valid-user

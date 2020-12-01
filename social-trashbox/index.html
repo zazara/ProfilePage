@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Social Trashbox</title>
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <script type="text/javascript" src="./Box2D.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript" src="./graphics.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+  <body id="droparea">
+    
+    <canvas id="myCanvas" class="myCanvas" ></canvas>
+<div class="body text-center">
+  <div>
+  <button id="button" type="button" class="clear-button" onclick="onClearButtonClick();">ゴミ箱を空にする</button>
+</div>
+<div>
+  <input type="text" id="textbox" onkeypress="enter();"><button type="button" id="send" class="send-button" onclick="onSendButtonClick();">送信</button>
+</div>
+</div>
+
+</section>
+</body>
+</html>
